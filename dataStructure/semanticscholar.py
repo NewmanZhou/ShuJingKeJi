@@ -22,3 +22,17 @@ semanticscholarItme = {
     'paper_abstract':'源文件自带的 谷歌搜索结果',
     'paper_abstract_text':'清洗源文件的搜索结果'
 }
+
+
+'''《type ： 状态值 详细说明》'''
+
+'''
+表 ： hasPaper_abstract //Paper0  的原始google 数据清洗的 结果。 
+0： 未清洗，刚入库的初始状态
+1： 有内容，并且清洗完成。
+2： 没有内容，不需要清洗。
+3： 在状态 1 的基础上 已经其结果 合并到表《paper_2219521_from_0》 的 'Clean_abstract' 字段上。
+
+
+
+'''
