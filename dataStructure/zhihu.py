@@ -28,6 +28,7 @@ topicIDItems = {
 }
 
 # 知乎 话题关注者
+# 话题 关注者 表：  话题topicId + 关注者Id 做联合唯一索引
 topicFollower = {
     "topicName": "汽车品牌",  # 话题名称
     "topicID": "19697090",  # 话题ID
@@ -44,6 +45,7 @@ topicFollower = {
 }
 
 # 知乎 用户 的个人信息的 详细字段说明（未完待添加）
+# 用户表： 用户ID 做唯一索引
 peopleTable = {
     "id": "246e6cf44e94cefbf4b959cb5042bc91",  # 用户的ID
     "name": "于欣烈",  # 用户的 名称
@@ -61,6 +63,7 @@ peopleTable = {
 }
 
 # 知乎 话题标签下的 问题 及问题的相关信息
+# 话题ID  + 问题ID 做唯一索引
 topicQuestions = {
     "topicName": "汽车品牌",  # 问题所属的 话题标签名称
     "topicID": "19697090",  # 问题所属的 话题标签ID
