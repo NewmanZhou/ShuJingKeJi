@@ -31,8 +31,17 @@ semanticscholarItme = {
 0： 未清洗，刚入库的初始状态
 1： 有内容，并且清洗完成。
 2： 没有内容，不需要清洗。
-3： 在状态 1 的基础上 已经其结果 合并到表《paper_2219521_from_0》 的 'Clean_abstract' 字段上。
+3： 在状态 1 的基础上 已经其结果 合并到表《paper2219521_from_0》 的 'Clean_abstract' 字段上。
 
 
 
+'''
+
+'''
+['paper_id', 'scholar_id', 'paper_abstract_text']
+['paper_id', 'scholar_id', 'paper_title', 'semantic_scholar_author_list', 'semantic_scholar_year', 'semantic_scholar_journal', 'semantic_scholar_DOI', 'semantic_scholar_topic', 'semantic_url', 'semantic_scholar_title', 'semantic_scholar_abstract']
+>>> df = pd.read_csv('paper_part0_rmEnter.csv')
+>>> dd = pd.read_csv('semanticScholarClean.csv')
+>>> data = pd.merge(df, dd, on=['paper_id','scholar_id'], how='left')
+>>> data.to_csv('paper_part0_google_rmEnter.csv',encoding='utf-8',index='false')
 '''

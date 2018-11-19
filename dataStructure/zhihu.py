@@ -111,3 +111,19 @@ topicQuestions = {
     },
     "type": 0  # 数据状态值
 }
+
+# 知乎话题下  活跃回答者 字段说明
+# 话题ID  + 用户ID 做唯一索引
+bestAnswerersItem = {
+                'topicName': '', # 话题名称
+                'topicID': '', # 话题ID
+                'id': '', # 用户ID
+                'name': '', # 用户昵称
+                'headline': '', # 用户个签
+                'url_token': '', # 用户短链接
+                'answer_count': '', # 用户在问题下的 回答数
+                'answer_votes': '', # 回答后的 赞同数
+                'crawlContent': '', # 采集到的原始数据
+                'crowlTime': '', # 采集时间
+                'type': 0, # 状态值
+            }
