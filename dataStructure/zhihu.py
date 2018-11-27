@@ -55,7 +55,7 @@ peopleTable = {
     "articles_count": 188,  #  文章数
     "follower_count": 282030,  #  被关注数
     "avatar_url": "https://pic1.zhimg.com/50/3d4085b43_is.jpg",  # 关注者的 头像地址
-    "gender": "",  # 性别
+    "gender": "",  # 性别  1 男，0 女， -1 未注明
     "locations": "",  # 居住地 (多条)
     "business": "",  # 行业  待校验
     "employments": "",  # 职业经历（多条）
