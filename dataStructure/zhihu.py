@@ -40,7 +40,7 @@ topicFollower = {
     "articles_count": 188,  # 关注者的 文章数
     "follower_count": 282027,  # 关注者的 关注数
     "avatar_url": "https://pic1.zhimg.com/50/3d4085b43_is.jpg",  # 关注者的 头像地址
-    "crowlTime": "2018-09-20 15:49:34",  # 数据采集时间 or 数据的更新时间
+    "crawlTime": "2018-09-20 15:49:34",  # 数据采集时间 or 数据的更新时间
     "type": 0  # 采集的状态值
 }
 
@@ -87,7 +87,7 @@ peopleTable = {
     "usersJson": "",  # 用户信息的 待解析的原始Json （从crawlContent 提取的）
     "crawlContent": "",  # 采集到的原始JSON 数据不包含 Html
 
-    "crowlTime": "2018-09-20 16:05:17",  # 数据采集时间 or 数据的更新时间
+    "crawlTime": "2018-09-20 16:05:17",  # 数据采集时间 or 数据的更新时间
     # 待完善
     "type": 0  # 采集的状态值0 未采集，1 采集了详细信息，2 解析了详细信息， 4 没有详细内容
 
@@ -157,8 +157,8 @@ bestAnswerersItem = {
     'headline': '',  # 用户个签
     'url_token': '',  # 用户短链接
     'answer_count': '',  # 用户在问题下的 回答数
-    'answer_votes': '',  # 回答后的 赞同数
+    'answer_votes': '',  # 回答后的 赞同数 (当前话题下回答后的赞同数，非全部赞同数)
     'crawlContent': '',  # 采集到的原始数据
-    'crowlTime': '',  # 采集时间
+    'crawlTime': '',  # 采集时间
     'type': 0,  # 状态值
 }
