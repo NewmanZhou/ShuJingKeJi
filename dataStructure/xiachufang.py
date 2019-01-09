@@ -61,6 +61,8 @@ douguoItems = {
         {'title':'宿舍','url':'http://www.xiachufang.com/category/52370/'},
         {'title':'......','url':'......'},
     ],  # 分类 + 链接
+    'creatTime':'创建时间', # 菜谱创建时间
+    'collect': '10383',  # 收藏数
     'crawlTime':'', # 抓取时间
     'content':'菜谱详情原始数据', # 菜谱详情原始数据
     'source':'下厨房', # 来源 豆果美食
